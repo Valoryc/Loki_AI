@@ -8,7 +8,7 @@
 
 ## 📋 Panoramica del Progetto
 
-**Loki_AI** è un'applicazione a riga di comando (CLI) progettata per interagire con diversi Large Language Models (LLM) da un'unica interfaccia unificata[cite: 6, 7]. Permette all'utente di scegliere all'avvio quale modello utilizzare, ricevendo risposte fluide in tempo reale e archiviando ogni conversazione in locale.
+**Loki_AI** è un'applicazione a riga di comando (CLI) progettata per interagire con diversi Large Language Models (LLM) da un'unica interfaccia unificata. Permette all'utente di scegliere all'avvio quale modello utilizzare, ricevendo risposte fluide in tempo reale e archiviando ogni conversazione in locale.
 
 ### ✨ Funzionalità Principali
 * **Architettura Multi-Provider:** Supporto nativo per **Google Gemini** (`gemini-3.8-flash`), **OpenAI** (`gpt-4o-mini`) e **Anthropic Claude** (`claude-sonnet-4-6`) tramite la libreria `LiteLLM`.
@@ -20,10 +20,10 @@
 
 ## 🛠️ Stack Tecnologico
 
-* **Linguaggio:** Python 3[cite: 6]
-* **Orchestrazione LLM:** [LiteLLM](https://github.com/BerriAI/litellm)[cite: 6]
-* **Database:** SQLite3 (libreria standard Python)[cite: 6]
-* **Configurazione:** PyYAML (`.yaml`)[cite: 6]
+* **Linguaggio:** Python 3
+* **Orchestrazione LLM:** [LiteLLM](https://github.com/BerriAI/litellm)
+* **Database:** SQLite3 (libreria standard Python)
+* **Configurazione:** PyYAML (`.yaml`)
 
 ---
 
@@ -46,7 +46,7 @@ source venv/bin/activate  # Su Windows: venv\Scripts\activate
 pip install litellm pyyaml
 
 ### 3 Configura le chiavi API:
-Crea un file chiamato api_keys.yaml nella cartella principale del progetto (allo stesso livello di PCTO.py) seguendo questa struttura[cite:3,6]:
+Crea un file chiamato api_keys.yaml nella cartella principale del progetto (allo stesso livello di PCTO.py) seguendo questa struttura:
 
 Google:
   api_key: "LA_TUA_CHIAVE_GEMINI"
@@ -62,25 +62,28 @@ Claude:
 
 ##💻 Utilizzo
 
-Avvia lo script principale dal terminale[cite: 6]:
+Avvia lo script principale dal terminale:
 
 python PCTO.py
 
 
-All'avvio ti verrà chiesto di selezionare il provider desiderato[cite: 6]:PlaintextScegli quale modello utilizzare:
+All'avvio ti verrà chiesto di selezionare il provider desiderato: 
+Plaintext
+
+Scegli quale modello utilizzare:
 1) Google (gemini/gemini-3.8-flash)
 2) OpenAI (openai/gpt-4o-mini)
 3) Claude (anthropic/claude-sonnet-4-6)
 Inserisci il numero corrispondente (1, 2 o 3):
 
-Digita il tuo prompt e premi Invio per ricevere la risposta in streaming[cite: 6].
+Digita il tuo prompt e premi Invio per ricevere la risposta in streaming.
 Ogni scambio viene salvato automaticamente nella tabella messaggi del file cronologia_chat.db.
-Digita exit per chiudere il programma[cite: 6].
+Digita exit per chiudere il programma.
 
 ##🗺️ Sviluppi Futuri
 Aggiunta della memoria conversazionale (invio dello storico dei messaggi al modello per mantenere il contesto).
 
-Comando dedicato per consultare o esportare la cronologia salvata su SQLite[cite: 6].
+Comando dedicato per consultare o esportare la cronologia salvata su SQLite.
 
 Sviluppo di un'interfaccia grafica web (es. con Streamlit o Chainlit).
 
