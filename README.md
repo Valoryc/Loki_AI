@@ -21,7 +21,7 @@
 ## 🛠️ Stack Tecnologico
 
 * **Linguaggio:** Python 3
-* **Orchestrazione LLM:** [LiteLLM](https://github.com/BerriAI/litellm)
+* **Orchestrazione LLM:** [LiteLLM]
 * **Database:** SQLite3 (libreria standard Python)
 * **Configurazione:** PyYAML (`.yaml`)
 
