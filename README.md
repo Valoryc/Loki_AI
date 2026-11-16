@@ -60,7 +60,7 @@ Claude:
   api_key: "LA_TUA_CHIAVE_ANTHROPIC"
   model: "anthropic/claude-sonnet-4-6"
 
-##💻 Utilizzo
+### 💻 Utilizzo
 
 Avvia lo script principale dal terminale:
 
@@ -80,14 +80,14 @@ Digita il tuo prompt e premi Invio per ricevere la risposta in streaming.
 Ogni scambio viene salvato automaticamente nella tabella messaggi del file cronologia_chat.db.
 Digita exit per chiudere il programma.
 
-##🗺️ Sviluppi Futuri
+### 🗺️ Sviluppi Futuri
 Aggiunta della memoria conversazionale (invio dello storico dei messaggi al modello per mantenere il contesto).
 
 Comando dedicato per consultare o esportare la cronologia salvata su SQLite.
 
 Sviluppo di un'interfaccia grafica web (es. con Streamlit o Chainlit).
 
-##🤝 Contatti
-Progetto sviluppato da [Tuo Nome e Cognome] – Se hai suggerimenti o vuoi confrontarti sul codice, contattami pure!
+### 🤝 Contatti
+Progetto sviluppato da [Valentina Avitabile] – Se hai suggerimenti o vuoi confrontarti sul codice, contattami pure!
 
 LinkedIn: [www.linkedin.com/in/valentina-avitabile]
