@@ -1,3 +1,11 @@
 Google:
-    api_key: "AQ.Ab8RN6J2Vw6i6PnJQI7F4qBsrb_kXyiiuYDgUX9SBCXPPwRk0A"
-    model: "models/gemini-3-flash-preview"
+    api_key: "AQ.Ab8RN6JpVdxswKyjfqc-5_QnjP0qdmDCXFiuV1vNEZ446CcaPA"
+    model: "gemini/gemini-3.8-flash"
+    
+OpenAI:
+    api_key: "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"
+    model: "openai/gpt-4o-mini"
+    
+Claude:
+    api_key: "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"
+    model: "anthropic/claude-sonnet-4-6"
