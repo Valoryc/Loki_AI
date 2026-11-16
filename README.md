@@ -48,17 +48,17 @@ pip install litellm pyyaml
 ### 3 Configura le chiavi API:
 Crea un file chiamato api_keys.yaml nella cartella principale del progetto (allo stesso livello di PCTO.py) seguendo questa struttura:
 
-Google:
-  api_key: "LA_TUA_CHIAVE_GEMINI"
-  model: "gemini/gemini-3.8-flash"
-
-OpenAI:
-  api_key: "LA_TUA_CHIAVE_OPENAI"
-  model: "openai/gpt-4o-mini"
-
-Claude:
-  api_key: "LA_TUA_CHIAVE_ANTHROPIC"
-  model: "anthropic/claude-sonnet-4-6"
+   Google:
+     api_key: "LA_TUA_CHIAVE_GEMINI"
+     model: "gemini/gemini-3.8-flash"
+   
+   OpenAI:
+     api_key: "LA_TUA_CHIAVE_OPENAI"
+     model: "openai/gpt-4o-mini"
+   
+   Claude:
+     api_key: "LA_TUA_CHIAVE_ANTHROPIC"
+     model: "anthropic/claude-sonnet-4-6"
 
 ### 💻 Utilizzo
 
